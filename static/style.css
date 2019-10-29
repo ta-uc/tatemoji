@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {	font-family: sans-serif;}
+
+.center-box{
+  writing-mode: vertical-rl;
+  font-size: 10vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  animation: rotation 3s ease-in-out 0s infinite alternate both running;
+}
+
+@keyframes rotation {
+  8.33% {
+    filter: blur(3px);
+    transform: translateY(-50%) translateX(-50%);
+  }
+  16.66% {
+    filter: blur(2px);
+    transform: translateY(-49.5%) translateX(-51%);
+  }
+  25% {
+    filter: blur(0.5px);
+    transform: translateY(-49%) translateX(-50%);
+  }
+  33.33% {
+    filter: blur(0px);
+    transform: translateY(-49.5%) translateX(-49%);
+  }
+  41.66% {
+    filter: blur(0.5px);
+    transform: translateY(-50%) translateX(-50%);
+  }
+  50% {
+    filter: blur(1px);
+    transform: translateY(-50.5%) translateX(-51%);
+  }
+  58.33% {
+    filter: blur(3px);
+    transform: translateY(-51%) translateX(-50%);
+  }
+  66.66% {
+    filter: blur(3.5px);
+    transform: translateY(-51.5%) translateX(-49%);
+  }
+  75% {
+    filter: blur(0px);
+    transform: translateY(-52%) translateX(-50%);
+  }
+  83.33% {
+    filter: blur(2px);
+    transform: translateY(-51.5%) translateX(-51%);
+  }
+  91.66% {
+    filter: blur(1px);
+    transform: translateY(-51%) translateX(-50%);
+  }
+  100% {
+    filter: blur(3px);
+    transform: translateY(-50.5%) translateX(-49%);
+  }
+}
