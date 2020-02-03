@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-p {	font-family: sans-serif;}
+p{
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+  letter-spacing: 3px;
+}
 
 .center-box{
   writing-mode: vertical-rl;
